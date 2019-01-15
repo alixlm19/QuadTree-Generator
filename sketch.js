@@ -5,8 +5,8 @@ let bbPoints = [];
 
 function setup() {
     createCanvas(600, 400);
-    qt = new QuadTree(new Point(width/2, height/2), width/2);
-    bb = new AABB(new Point(0, 0), 40);
+    qt = new QuadTree(new Point(width/2, height/2), width/2, height/2);
+    bb = new AABB(new Point(0, 0), 40, 40);
 }
 
 function draw() {
